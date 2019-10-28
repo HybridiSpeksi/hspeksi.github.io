@@ -3,7 +3,7 @@ Vanha layoutti on ihan OK eli etusivu ja sen alle vanhat speksit, yhdistys ja mu
 
 Vanhoilla sivuilla ollutta 'nykyinen speksi' sivua ei enää tarvita kun ei oo lipunmyyntiä siellä. (ainakaan tällä tietoo).
 	
-Alkuun joku nopee kiva "loading screen" siihen, mut se ei ehi olee siellä ku pari viikkoo ni ei tartte paljoo aikaa käyttää siihe.
+Alkuun etusivulle joku nopee kiva "loading screen" siihen, mut se ei ehi olee siellä ku pari viikkoo ni ei tartte paljoo aikaa käyttää siihe.
     
 Etusivuille sit myös lyhyt esittely hybridispeksistä ja spekseistä yleensä. (vanhoilla sivuilla hyvä pätkä)
   
