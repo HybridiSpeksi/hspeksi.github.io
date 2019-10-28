@@ -9,7 +9,7 @@ Etusivuille sit myös lyhyt esittely hybridispeksistä ja spekseistä yleensä. 
   
 Etusivu sit muuten valmiiks niin et saadaan traileri lyötyä sinne 26.11. kun se ja speksin nimi julkastaan
 	
-Hallitus/tuottis ja yhteystiedot sit seuraavana
+Hallitus/tuottis ja yhteystiedot sit seuraavana (myös säännöt ja rekisteriseloste
 
 Ja loputkin sivut sit tän vuoden puolella/asap kuntoon
 	
