@@ -1,0 +1,22 @@
+@font-face { font-family: artdec; src: url('GrenadierNF.ttf'); }
+
+body {
+  background-image: url("tausta.jpg");
+  background-size: cover;
+  margin: 0;
+}
+
+h1 {
+
+  color: #d943df;
+}
+
+p {
+  font-size: 30px;
+  font-family: "artdec";
+  color: #d943df;
+}
+
+a {
+  color: #7efffd;
+}
