@@ -1,9 +1,40 @@
 @font-face { font-family: artdec; src: url('GrenadierNF.ttf'); }
 
 body {
-  background-image: url("tausta.jpg");
+/*  background-image: url("tausta.jpg");*/
+  background-color: "white";
   background-size: cover;
   margin: 0;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #333;
+  color: white;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 h1 {
@@ -35,6 +66,7 @@ a {
 
 table, th, td {
 }
+
 hr{
   color: "black";
 }
@@ -43,4 +75,5 @@ hr{
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 50px;
+  justify-content: space-evenly;
 }
