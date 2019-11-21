@@ -81,29 +81,9 @@ li a:hover {
   justify-content: space-evenly;
 }
 
-.main_internalLink_grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 5px;
-  justify-content: space-evenly;
-  grid-template-columns: repeat( 4, 1fr );
-}
-
-.main_internalLink_grid-container_item {
-	grid-column: span 2;
-  flex: 0 0 200px;
-  margin: 10px;
-  /* border: 1px solid #ccc; */
-  /* box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3); */
-  text-align: center;
-  padding: 20px;
-}
-.text{
-  text-align: center;
-}
-
-.main_internalLink_grid-container_item:nth-last-child(1):nth-child(odd) {
-	grid-column: 2 / span 2;
+.hsinfo{
+  display: flex;
+  width: 500px;
 }
 
 .Footer__someIcons {
