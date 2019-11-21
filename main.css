@@ -1,4 +1,4 @@
-@font-face { font-family: artdec; src: url('GrenadierNF.ttf'); }
+@font-face { font-family: artdec; src: url('assets/fonts/GrenadierNF.ttf'); }
 
 body {
 /*  background-image: url("tausta.jpg");*/
@@ -20,12 +20,16 @@ h2 {
 }
 p {
 
-  font-family: "artdec";
 
   text-align: justify;
 }
+
 td.thick{
   font-weight: bold;
+}
+
+th, td{
+  width: 200px
 }
 
 a {
@@ -78,6 +82,13 @@ li a:hover {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 50px;
+  justify-content: space-evenly;
+}
+
+.org_grid{
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-gap: 40px;
   justify-content: space-evenly;
 }
 
