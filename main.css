@@ -1,10 +1,14 @@
 @font-face { font-family: artdec; src: url('assets/fonts/GrenadierNF.ttf'); }
-
+html{
+  height: 100%
+}
 body {
 /*  background-image: url("tausta.jpg");*/
   background-color: "white";
   background-size: cover;
   margin: 0;
+  position: relative;
+  height: 100%
 }
 
 h1 {
@@ -42,12 +46,15 @@ a {
   background: #333;
   color: white;
   }
+
 .footer {
     padding: 10px;
     text-align: center;
     background: #333;
     color: white;
+    bottom: 0px;
     }
+
 ul {
   list-style-type: none;
   margin: 0;
