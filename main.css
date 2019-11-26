@@ -1,6 +1,8 @@
 @font-face { font-family: artdec; src: url('assets/fonts/GrenadierNF.ttf'); }
 @font-face { font-family: cowboys; src: url('assets/fonts/cowboys.ttf');}
 @font-face { font-family: bangbang; src: url('assets/fonts/westernbangbang.otf');}
+@font-face { font-family: zapfino; src: url('assets/fonts/zapfino.ttf');}
+@font-face { font-family: shanghai; src: url('assets/fonts/shanghai.ttf');}
 html{
   height: 100%
 }
@@ -67,6 +69,7 @@ ul {
 
 li {
   float: left;
+  font-family: artdec;
 }
 
 li a {
@@ -130,7 +133,9 @@ li a:hover {
   text-align: center;
   font-size: 20px;
   max-width: 1000px
-
+}
+.vanhaspeksi{
+  padding: 20px
 }
 .prev-column{
   display: grid;
