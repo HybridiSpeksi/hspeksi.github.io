@@ -1,0 +1,11 @@
+﻿# humanstxt.org/
+
+# TEAM
+	Eero Suvanto -- developer -- eero.suvanto [at] gmail.com
+	Oskari Läntinen -- developer -- oskari.lantinen [at] outlook.com
+
+# THANKS
+	Sanna Launiainen -- Graphical assets for 2020 production
+	Eero Nirhamo
+	HybridiSpeksi crew
+    
