@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127.7 127.7"
+	 style="enable-background:new 0 0 127.7 127.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-116.0838" y1="82.3669" x2="-115.0838" y2="82.3669" gradientTransform="matrix(127.7 0 0 -127.7 14823.9004 10582.0996)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<path class="st0" d="M63.8,0c35.3,0,63.8,28.6,63.8,63.8s-28.6,63.8-63.8,63.8S0,99.1,0,63.8C0,28.6,28.6,0,63.8,0
+		C63.8,0,63.8,0,63.8,0z M64.5,19.5c24.3,0,44,19.7,44,44s-19.7,44-44,44s-44-19.7-44-44S40.2,19.5,64.5,19.5z"/>
+	
+		<animateTransform  accumulate="none" additive="replace" attributeName="transform" calcMode="linear" dur="1080ms" fill="remove" from="0 64 64" repeatCount="indefinite" restart="always" to="360 64 64" type="rotate">
+		</animateTransform>
+</g>
+</svg>

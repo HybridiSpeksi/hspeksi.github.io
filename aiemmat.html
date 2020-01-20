@@ -1,203 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="fi">
 
 <head>
-  <title>Yhdistys</title>
-  <link rel="stylesheet" href="main.css">
-  <style media="screen">
-    hr {
-      color: "black";
-    }
-  </style>
+  <title>Aikaisemmat speksit &mdash; HybridiSpeksi</title>
+  <meta name="description"
+    content="HybridiSpeksi on Turun yliopiston luonnontieteiden ja tekniikan tiedekunnan opiskelijoiden vuosittain toteuttama teatteriproduktio.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#e7e7e7">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#e7e7e7">
+  <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+  <meta property="og:title" content="hybridispeksi">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.hybridispeksi.fi">
+  <meta property="og:image" content="http://www.hybridispeksi.fi/img/hybridispeksi.jpg">
+  <meta property="og:description"
+    content="HybridiSpeksi on Turun yliopiston luonnontieteiden ja tekniikan tiedekunnan opiskelijoiden vuosittain toteuttama teatteriproduktio.">
+  <meta name="msapplication-TileColor" content="#222">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#3e2665">
+  <link rel="stylesheet" href="css/style.css?v=0.132">
 </head>
 
 <body>
-  <div class="header">
-    <ul>
-      <img src="assets/images/hslogo_dark.png" style="width:40px;height:40px;float:left">
-      <li><a href="index.html">HybridiSpeksi</a></li>
-      <li style="float:right"><a href="aiemmat.html">Aikaisemmat speksit</a></li>
-      <li style="float:right"><a href="yhdistys.html">Yhdistys</a></li>
-      <!-- <li style="float:right"><a href="muut.html">Muut speksit</a></li> -->
-    </ul>
-  </div>
-
-  <div class="prev-column">
-    <div class="vanhaspeksi">
-      <!-- LOHIKÄÄRME-->
-      <div class="imageAndText">
-        <div>
-          <p style="font-family:shanghai; font-size:70px ">Viimeinen lohikäärmeisku</p>
-        </div>
-        <div>
-          <img src="assets\images\carousel\2019\2019_1.jpg"style="width:600px">
-        </div>
-
-      </div>
-      <div class="speksitext" style="font-family:shanghai">
-        Mystisessä Kiinassa vallitsee kurjuus ja epätoivo.
-        Raakalaismaiset barbaarit kylvävät tuhoa kaikkialle minne menevät.
-         Kovia kokenut, mutta päättäväinen nuorukainen Kim Mo on saanut
-          barbaareista ja Kiinan kurjuudesta tarpeekseen. Kim Mo uskoo
-           voivansa tuhota barbaarit ja pelastaa Kiinan löytämällä kauan
-           kadoksissa olleet legendaariset lohikäärmesisarukset. Näillä
-           Kung Fu -mestareilla kerrotaan olevan mystisiä taikavoimia.
-            Riittääkö yhden nuorukaisen päättäväisyys korjaamaan
-            menneisyyden virheet?
-      </div>
-
-
+  <nav id="navi" class="nav"><a href="/" class="active">2101: Avaruusristeily</a> <a href="speksi.html">Mikä on
+      speksi?</a> <a href="aikaisemmatspeksit.html">Aikaisemmat speksit</a> <a href="yhdistys.html">Yhdistys</a>
+    <div href="javascript:void(0);" class="nav__icon" onclick="navFunc()">
+      <div class="nav__icon__burger">&nbsp;</div>
     </div>
-    <div class="vanhaspeksi">
-      <!-- ÄLÄ AMMU OHI-->
-      <div class="imageAndText">
-        <div>
-          <img src="assets\images\carousel\2018\2018_1.jpg">
-        </div>
-        <div>
-          <p style="font-family:bangbang; font-size:70px ">Älä Ammu Ohi</p>
-        </div>
-      </div>
-      <div class="speksitext" style="font-family:Baskerville Old Face">
-        Villin lännen kuumimmalla aavikolla on pieni kylä keskellä
-        preeriaa. Tuomari Martin pitää yllä järjestystä lakikirjalla ja
-        hirttosilmukalla, samalla ryysyistä rikkauksiin kohonnut Alexandra
-        hallitsee kyläläisten kukkaroita ja himoja. Kaikkien rakastama pappi,
-        Isä Henry, tekee parhaansa pitääkseen harmonian näiden kahden ja asukkaiden
-        välillä. Tasapaino kuitenkin järkkyy, kun sen keskelle ilmestyy raakalaismaisen
-        rikollisliigan johtajatar suojaa etsien.
-      </div>
-
-
+  </nav>
+  <header class="header flex flex__column">
+    <div class="header__heading flex">
+      <h1 class="heading heading__h1">Aikai&shy;sem&shy;mat speksit</h1>
     </div>
-    <div class="vanhaspeksi">
-      <!-- KRUUNUN KOHTALO-->
-      <div class="imageAndText">
-        <div>
-          <p style="font-size:50px ">Kruunun kohtalo<br> -Kalevalan perintö</p>
-        </div>
-        <div>
-          <img src="assets\images\carousel\2017\2017_1.jpg">
-        </div>
-
-      </div>
-      <div class="speksitext" style="font-family:Baskerville Old Face">
-        Kalevalan lopussa Louhi on kukistettu ja Karjalassa on viimein rauha.
-        Väinämöinen on lähtenyt Karjalasta ja jatkanut matkaansa muihin
-        seikkailuihin jättäen velhoneuvoston huolehtimaan kruunusta. Kylän neito
-        Marjatta syö puolukan ja tulee raskaaksi. Ennustuksen mukaan Marjatan lapsesta,
-        Puolukasta, on tuleva Karjalan hallitsija. Velhoneuvosto auttaa Marjattaa
-        kasvattamaan Puolukan opettaen häntä hallitsijan rooliin.<br><br>
-
-        Puolukan saavutettua täysi-ikäisyyden, koko kansa valmistautuu
-        hänen kruunajaisiinsa. Kaikki on valmiina. Kruunajaiset voivat alkaa!<br><br>
-
-        SEIS!<br><br>
-
-        “Entä kruununperillisen tulikoe?”<br><br><br>
-
-        HybridiSpeksi 2017: Kruunun kohtalo – Kalevalan perintö
-        herätti henkiin kauan sitten unohdetun kansantarun, kertoen
-        Suomen kansalliseepoksen, Kalevalan, jälkeisistä tapahtumista.
-        Saunan täydeltä tervaisia sankareita ja suomalaista sisua!
-      </div>
-
+  </header>
+  <section id="posters" class="flex section">
+    <div id="loading" class="flex flex__column"><img src="img/loading_2.svg" alt="Loading">
+      <p class="paragraph paragraph__loading">Loading...</p>
     </div>
-    <div class="vanhaspeksi">
-      <!-- BRATVA KONTRA-->
-      <div class="imageAndText">
-        <div>
-          <img src="assets\images\carousel\2016\2016_1.jpg">
-        </div>
-        <div>
-          <p style="font-family:Courier New; font-size:50px ">BratvaKontra</p>
-        </div>
-      </div>
-      <div class="speksitext" style="font-family:Courier New">
-        Kolme nuorta on kateissa. Tilanne on toki ikävä, enkä saisi
-        elätellä liian suuria toiveita, mutta tämän ansiosta saatan vihdoin edetä tutkinnassani.
-        BratvaKontra toimii yleensä harkitusti, eikä ole aikaisemmin jättänyt mitään pitäviä todisteita
-        lainvastaisesta toiminnastaan.<br><br>
-
-        Vaikken voi suoraan osoittaa yhteyttä kadonneiden
-        nuorten ja BratvaKontran välillä, viimeaikaiset tapahtumat
-        viittaavat heidän käyttävän näitä nuoria tavotteidensa saavuttamiseksi.
-        Miksi BratvaKontra poikkeaa kaavastaan? Mihin kylmän laskelmoivasti
-        toimiva rikollisliiga heitä tarvitsee?<br><br>
-
-        En tiedä. Vielä.<br><br>
-
-        Etsivä Saarnion muistiinpanot.<br>
-        28.01. vuosi 21 jsk.
-      </div>
-      <div class="speksitext">
-        Historian toinen HybridiSpeksi sai ensi-iltansa 1.4.2016
-        tanssiteatteri ERI:ssä. HybridiSpeksi 2016 toi näyttämölle
-        verellä, salajuonilla ja huumorilla terästetyn toiminnallisen
-        jännitysnäytelmän opiskelijakolmikosta alamaailman rikoshelvetissä.
-      </div>
-
+  </section>
+  <section id="speksi" class="flex flex__column"><a href="#posters" class="button button__scrollToTop">Takaisin
+      alkuun</a>
+    <div id="hali__container" class="speksi flex flex__column">
+      <div class="speksi__content flex flex__column"></div>
     </div>
-    <div class="vanhaspeksi">
-      <!-- HALI-->
-      <div class="imageAndText">
-        <div>
-          <p style="font-family:Arial; font-size:70px ">H.A.L.I.</p>
-        </div>
-        <div>
-          <img src="assets\images\carousel\2015\2015_1.jpg">
-        </div>
-
-      </div>
-      <div class="speksitext" style="font-family:Arial">
-        Turun yliopiston huippututkija Viktor Salaoja ja
-        hänen assistenttinsa kehittävät Turun yliopiston hämyisissä
-        työhuoneissa ratkaisuja monenlaisiin yhteiskunnassa vastaan
-        tulleisiin ongelmiin.<br><br>
-
-        Samaan aikaan kaupungilla Hyvinvointia ja Avunantoa Lainkuuliaisille
-        Ihmisille -puolue (H.A.L.I.) tekee kiihkeää kampanjatyötä ja
-        valmistautuu edessä oleviin kunnanvaltuuston vaaleihin.<br><br>
-
-        Kun H.A.L.I. pääsee vallankahvaan kiinni, joutuu Viktor tiimeineen
-        keskelle myrskyä. Tieteellinen huippututkimus valjastetaan
-        poliittisen päätäntäkoneiston osaksi tuomaan absoluuttista
-        tasa-arvoa ihmisten elämään. Minkälaisia vaikutuksia on
-        Kauppatorilla riehuvalla tornadolla tai Ruissalon uusilla
-        surffauskeleillä? Miltä tuntuisi päästä lomailemaan etelän
-        lämpöön ihan kaupunkiliikenteen bussilla? Entä miten pakollinen h
-        alaus ihmisten kohdatessa vaikuttaa tasa-arvoistamiseen?
-        Minkälaista uudelleenkoulutusta Muumimaailmassa annetaankaan?<br><br>
-
-      </div>
-      <div class="speksitext">
-        Ensimmäinen HybridiSpeksi saapui näyttämölle
-        rennosti kantaaottavalla ja opiskelijaromantiikallakin
-        höystetyllä toimintakomedialla keväällä 2015.
-      </div>
+    <div id="bratvakontra__container" class="speksi flex flex__column">
+      <div class="speksi__content flex flex__column"></div>
     </div>
-  </div>
+    <div id="kruununkohtalo__container" class="speksi flex flex__column">
+      <div class="speksi__content flex flex__column"></div>
+    </div>
+    <div id="alaammuohi__container" class="speksi flex flex--column">
+      <div class="speksi__content flex flex__column"></div>
+    </div>
+    <div id="viimeinenlohikaarmeisku__container" class="speksi flex flex--column">
+      <div class="speksi__content flex flex__column"></div>
+    </div>
+  </section>
+  <section id="modals"></section>
+  <footer class="flex flex__column">
+    <div class="flex"><a href="https://www.instagram.com/hybridispeksi/" rel="noopener" target="_blank"><svg
+          class="icon icon__insta" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024">
+          <path
+            d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1 717.1 625.5 717.1 512 625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7 645.3 438.6 645.3 512 585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9 47.9-21.3 47.9-47.9a47.84 47.84 0 00-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1-18.2-7.3-31.8-16.1-45.8-30.2-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9 7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2 14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z" />
+        </svg></a><a href="https://www.facebook.com/HybridiSpeksi/" rel="noopener" target="_blank"><svg
+          class="icon icon__fb" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024">
+          <path
+            d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-92.4 233.5h-63.9c-50.1 0-59.8 23.8-59.8 58.8v77.1h119.6l-15.6 120.7h-104V912H539.2V602.2H434.9V481.4h104.3v-89c0-103.3 63.1-159.6 155.3-159.6 44.2 0 82.1 3.3 93.2 4.8v107.9z" />
+        </svg></a><a href="https://www.youtube.com/channel/UCVkhBQHSqKtwC5X7qXe6HSg" rel="noopener" target="_blank"><svg
+          class="icon icon__youtube" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 202.3 141.6">
+          <path
+            d="M101.2.3S38 .3 22.1 4.4C13.8 6.8 6.7 13.8 4.3 22.1.2 38 .2 71.1.2 71.1s0 33.1 4.1 48.4c2.4 8.9 9.4 15.3 17.7 17.7 15.9 4.1 79.1 4.1 79.1 4.1s63.2 0 79.1-4.1c8.9-2.4 15.3-8.9 17.7-17.7 4.1-15.9 4.1-48.4 4.1-48.4s0-33.1-4.1-49c-2.4-8.9-8.9-15.3-17.7-17.7-15.9-4.1-79-4.1-79-4.1zM81.1 41l52.5 30.1-52.5 30.1V41z" />
+        </svg></a><a href="mailto:hallitus@hybridispeksi.fi"><svg class="icon icon__mail"
+          xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024">
+          <path
+            d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-40 110.8V792H136V270.8l-27.6-21.5 39.3-50.5 42.8 33.3h643.1l42.8-33.3 39.3 50.5-27.7 21.5zM833.6 232L512 482 190.4 232l-42.8-33.3-39.3 50.5 27.6 21.5 341.6 265.6a55.99 55.99 0 0068.7 0L888 270.8l27.6-21.5-39.3-50.5-42.7 33.2z" />
+        </svg></a></div>
+    <p>&copy; 2020 HybridiSpeksi</p>
+  </footer>
+  <script src="js/vendor/lazyload.min.js"></script>
+  <script src="js/scripts.js?v=0.132"></script>
+  <script>document.addEventListener('DOMContentLoaded', function (event) {
+      getSpeksiData();
+    });
 
+    window.addEventListener('load', function () {
+      var scrollpos = window.scrollY;
+      var scrollButton = document.querySelector('.button__scrollToTop');
+      var posters = document.querySelector('#posters');
+      var viewportHeight = window.innerHeight;
+      var show_height = posters.offsetHeight + viewportHeight * 2;
+      var footerHeight = document.querySelector('footer').offsetHeight / 2
 
+      var add_class_on_scroll = function add_class_on_scroll() {
+        return scrollButton.classList.add('show');
+      };
 
+      var remove_class_on_scroll = function remove_class_on_scroll() {
+        return scrollButton.classList.remove('show');
+      };
 
+      window.addEventListener('scroll', function () {
+        scrollpos = window.scrollY;
 
-  <div class="footer">
-    <center>
-      <div><a href="/">HybridiSpeksi</a></div>
-      <div class="Footer__someIcons">
-        <div><a href="https://www.facebook.com/HybridiSpeksi/">
-            <img class="footer_image" src="assets/images/facebook.svg" style="height:30px;width:30px"></a></div>
-        <div><a href="https://www.instagram.com/hybridispeksi/">
-            <img class="footer_image" src="assets/images/instagram.svg" style="height:30px;width:30px"></a></div>
-        <div><a href="https://www.youtube.com/channel/UCVkhBQHSqKtwC5X7qXe6HSg">
-            <img class="footer_image" src="assets/images/youtube.svg" style="height:30px;width:30px"></a></div>
-      </div>
-      <div><a href="mailto:hallitus@hybridispeksi.fi">
-          hallitus@hybridispeksi.fi</a></div>
-  </div>
-  </center>
-  </div>
+        let distanceToBottom = document.body.clientHeight - scrollpos - window.innerHeight;
+
+        if (scrollpos >= show_height) {
+          add_class_on_scroll();
+          if (distanceToBottom < footerHeight) {
+            scrollButton.classList.add('showFooter');
+          } else {
+            scrollButton.classList.remove('showFooter');
+          }
+        }
+        else {
+          remove_class_on_scroll();
+        }
+
+      });
+    });</script>
 </body>
 
 </html>
