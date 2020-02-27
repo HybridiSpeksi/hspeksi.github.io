@@ -9,27 +9,22 @@
 
 <url>
   <loc>https://hybridispeksi.fi/</loc>
-  <lastmod>2020-01-20T13:22:19+00:00</lastmod>
+  <lastmod>2020-01-05T13:12:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://hybridispeksi.fi/speksi.html</loc>
-  <lastmod>2020-01-20T13:22:19+00:00</lastmod>
+  <lastmod>2020-01-05T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://hybridispeksi.fi/aikaisemmatspeksit.html</loc>
-  <lastmod>2020-01-20T13:22:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hybridispeksi.fi/keikat.html</loc>
-  <lastmod>2020-01-20T13:22:19+00:00</lastmod>
+  <loc>https://hybridispeksi.fi/aiemmat.html</loc>
+  <lastmod>2020-01-05T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hybridispeksi.fi/yhdistys.html</loc>
-  <lastmod>2020-01-20T13:22:19+00:00</lastmod>
+  <lastmod>2020-01-05T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
