@@ -24,31 +24,31 @@
     "people": [
       {
         "title": "Puheenjohtaja",
-        "name": "Ira Tulla"
-      },
-      {
-        "title": "Varapuheenjohtaja, tila- ja rekrytointivastaava",
-        "name": "Maria Nieminen"
-      },
-      {
-        "title": "Taloudenhoitaja, rekisteri- ja tietosuojavastaava",
-        "name": "Matias Kari"
-      },
-      {
-        "title": "Sihteeri, tiedotusvastaava",
         "name": "Waltteri Hatulainen"
       },
       {
-        "title": "Interspeksivastaava",
-        "name": "Otso Lauerma"
+        "title": "Varapuheenjohtaja, laite-, rekrytointi- ja kulttuurivastaava",
+        "name": "Lassi Lehtinen"
       },
       {
-        "title": "Improkerho-, liikunta- ja ympäristövastaava",
-        "name": "Matti Leinonen"
+        "title": "Taloudenhoitaja, rekisteri- ja tietosuojavastaava",
+        "name": "Oskari Läntinen"
       },
       {
-        "title": "Yhdenvertaisuus-, hyvinvointi-, some- ja tarvikevastaava",
-        "name": "Liisa Pösö"
+        "title": "Sihteeri, tiedottaja, yhdenvertaisuus- ja hyvinvointivastaava",
+        "name": "Tiia Siivola"
+      },
+      {
+        "title": "Interspeksi- ja alumnivastaava",
+        "name": "Saara Koskela"
+      },
+      {
+        "title": "Improkerho- ja ympäristövastaava",
+        "name": "Olli Laaksoaho"
+      },
+      {
+        "title": "Liikunta-, tila- ja tarvikevastaava",
+        "name": "Lauri Pulli"
       }
     ]
   },
@@ -60,16 +60,11 @@
         "title": "Bändin keikkavastaava",
         "name": "Lassi Lehtinen / lokleh@utu.fi",
         "email": "lokleh@utu.fi"
-      },
-      {
-        "title": "Näyttelijöiden keikkavastaava",
-        "name": "Ilari Laaksonen / ilari.laaksonen@gmail.com",
-        "email": "ilari.laaksonen@gmail.com"
       }
     ]
   },
   {
-    "tableName": "Tuotantotiimi",
+    "tableName": "Tuotantotiimi 2020",
     "id": "tuotantotiimi",
     "people": [
       {
@@ -115,11 +110,11 @@
       },
       {
         "title": "Maskeeraus",
-        "name": "Emma Kaija"
+        "name": "Emma Kaija ja Laura-Tuulia Aarnio"
       },
       {
         "title": "Puvustus",
-        "name": "Anni Halkoja"
+        "name": "Anni Halkola"
       },
       {
         "title": "Grafiikka",
