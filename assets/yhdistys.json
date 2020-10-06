@@ -64,7 +64,7 @@
     ]
   },
   {
-    "tableName": "Tuotantotiimi 2020",
+    "tableName": "Tuotantotiimi 2021",
     "id": "tuotantotiimi",
     "people": [
       {
@@ -73,80 +73,72 @@
         "email": "tuottaja@hybridispeksi.fi"
       },
       {
-        "title": "Tuottaja",
-        "name": "Sini Toivola"
-      },
-      {
-        "title": "Apulaistuottaja",
-        "name": "Yasmine Rantala"
+        "title": "Tuottajat",
+        "name": "Otso Lauerma ja Liisa Pösö"
       },
       {
         "title": "Ohjaaja",
-        "name": "Ilari Laaksonen"
+        "name": "Anita Komulainen"
       },
       {
         "title": "Apulaisohjaaja",
-        "name": "Milja Lempinen"
+        "name": "Olli Laaksoaho"
       },
       {
         "title": "Pääkoreografi",
-        "name": "Saara Koskela"
-      },
-      {
-        "title": "Apulaiskoreografi",
         "name": "Janica Kilpi"
       },
       {
-        "title": "Kapellimestari",
-        "name": "Matilda Sipilä"
+        "title": "Apulaiskoreografi",
+        "name": "Venla Nurmi"
       },
       {
-        "title": "Käsikirjoitus",
-        "name": "Otso Lauerma"
+        "title": "Kapellimestarit",
+        "name": "Elias Ervelä ja Lotta Laine"
       },
       {
-        "title": "Lavastus",
+        "title": "Käsikirjoitusvastaava",
         "name": "Kimmo Pyyhtiä"
       },
       {
-        "title": "Maskeeraus",
-        "name": "Emma Kaija ja Laura-Tuulia Aarnio"
+        "title": "Sanoitusvastaava",
+        "name": "Aino Laasonen"
       },
       {
-        "title": "Puvustus",
-        "name": "Anni Halkola"
-      },
-      {
-        "title": "Grafiikka",
-        "name": "Sanna Launiainen"
-      },
-      {
-        "title": "Varainhankinta",
-        "name": "Miika Länsi-Seppänen"
-      },
-      {
-        "title": "Markkinointi",
-        "name": "Milla Oksanen"
-      },
-      {
-        "title": "Kuvaus",
+        "title": "Lavastusvastaava",
         "name": "Justus Anttila"
       },
       {
-        "title": "Huolto- ja virkistys",
-        "name": "Aliisa Wahlsten"
+        "title": "Maskeerausvastaava",
+        "name": "Laura-Tuulia Aarnio"
       },
       {
-        "title": "Nettisivut",
-        "name": "Oskari Läntinen"
+        "title": "Puvustusvastaava",
+        "name": "Hanna Rantala"
       },
       {
-        "title": "Tekniikka",
-        "name": "Aurora Willman"
+        "title": "Grafiikkavastaava",
+        "name": "Matias Kari"
       },
       {
-        "title": "Laulunohjaus",
-        "name": "Lotta Laine"
+        "title": "Varainhankintavastaava",
+        "name": "Arttu Tikkanen"
+      },
+      {
+        "title": "Markkinointivastaava",
+        "name": "Maisa Pikkarainen"
+      },
+      {
+        "title": "Kuvausvastaava",
+        "name": "Waltteri Hatulainen"
+      },
+      {
+        "title": "Virkistysvastaava",
+        "name": "Ira Tulla"
+      },
+      {
+        "title": "Tekniikkavastaava",
+        "name": "Lauri Laakkonen"
       }
     ]
   }
