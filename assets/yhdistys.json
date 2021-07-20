@@ -24,31 +24,31 @@
     "people": [
       {
         "title": "Puheenjohtaja",
+        "name": "Saara Koskela"
+      },
+      {
+        "title": "Varapuheenjohtaja, improkerho- ja ympäristövastaava",
+        "name": "Veikka Savila"
+      },
+      {
+        "title": "Taloudenhoitaja, rekisteri- ja tietosuojavastaava, tilavastaava",
+        "name": "Oskari Läntinen"
+      },
+      {
+        "title": "Sihteeri, tiedottaja",
+        "name": "Laura-Tuulia Aarnio"
+      },
+      {
+        "title": "Interspeksi-, laite- ja liikuntavastaava",
+        "name": "Elias Ervelä"
+      },
+      {
+        "title": "Alumni-, interspeksi- ja somevastaava",
         "name": "Ira Tulla"
       },
       {
-        "title": "Varapuheenjohtaja, tila- ja rekrytointivastaava",
-        "name": "Maria Nieminen"
-      },
-      {
-        "title": "Taloudenhoitaja, rekisteri- ja tietosuojavastaava",
-        "name": "Matias Kari"
-      },
-      {
-        "title": "Sihteeri, tiedotusvastaava",
+        "title": "Kulttuuri- ja tarvikevastaava, yhdenvertaisuus- ja hyvinvointivastaava",
         "name": "Waltteri Hatulainen"
-      },
-      {
-        "title": "Interspeksivastaava",
-        "name": "Otso Lauerma"
-      },
-      {
-        "title": "Improkerho-, liikunta- ja ympäristövastaava",
-        "name": "Matti Leinonen"
-      },
-      {
-        "title": "Yhdenvertaisuus-, hyvinvointi-, some- ja tarvikevastaava",
-        "name": "Liisa Pösö"
       }
     ]
   },
@@ -58,18 +58,13 @@
     "people": [
       {
         "title": "Bändin keikkavastaava",
-        "name": "Lassi Lehtinen / lokleh@utu.fi",
-        "email": "lokleh@utu.fi"
-      },
-      {
-        "title": "Näyttelijöiden keikkavastaava",
-        "name": "Ilari Laaksonen / ilari.laaksonen@gmail.com",
-        "email": "ilari.laaksonen@gmail.com"
+        "name": "Elias Ervelä / emerve@utu.fi",
+        "email": "emerve@utu.fi"
       }
     ]
   },
   {
-    "tableName": "Tuotantotiimi",
+    "tableName": "Tuotantotiimi 2021",
     "id": "tuotantotiimi",
     "people": [
       {
@@ -78,80 +73,72 @@
         "email": "tuottaja@hybridispeksi.fi"
       },
       {
-        "title": "Tuottaja",
-        "name": "Sini Toivola"
-      },
-      {
-        "title": "Apulaistuottaja",
-        "name": "Yasmine Rantala"
+        "title": "Tuottajat",
+        "name": "Otso Lauerma ja Liisa Pösö"
       },
       {
         "title": "Ohjaaja",
-        "name": "Ilari Laaksonen"
+        "name": "Anita Komulainen"
       },
       {
         "title": "Apulaisohjaaja",
-        "name": "Milja Lempinen"
+        "name": "Olli Laaksoaho"
       },
       {
         "title": "Pääkoreografi",
-        "name": "Saara Koskela"
-      },
-      {
-        "title": "Apulaiskoreografi",
         "name": "Janica Kilpi"
       },
       {
-        "title": "Kapellimestari",
-        "name": "Matilda Sipilä"
+        "title": "Apulaiskoreografi",
+        "name": "Venla Nurmi"
       },
       {
-        "title": "Käsikirjoitus",
-        "name": "Otso Lauerma"
+        "title": "Kapellimestarit",
+        "name": "Elias Ervelä ja Lotta Laine"
       },
       {
-        "title": "Lavastus",
+        "title": "Käsikirjoitusvastaava",
         "name": "Kimmo Pyyhtiä"
       },
       {
-        "title": "Maskeeraus",
-        "name": "Emma Kaija"
+        "title": "Sanoitusvastaava",
+        "name": "Aino Laasonen"
       },
       {
-        "title": "Puvustus",
-        "name": "Anni Halkoja"
-      },
-      {
-        "title": "Grafiikka",
-        "name": "Sanna Launiainen"
-      },
-      {
-        "title": "Varainhankinta",
-        "name": "Miika Länsi-Seppänen"
-      },
-      {
-        "title": "Markkinointi",
-        "name": "Milla Oksanen"
-      },
-      {
-        "title": "Kuvaus",
+        "title": "Lavastusvastaava",
         "name": "Justus Anttila"
       },
       {
-        "title": "Huolto- ja virkistys",
-        "name": "Aliisa Wahlsten"
+        "title": "Maskeerausvastaava",
+        "name": "Laura-Tuulia Aarnio"
       },
       {
-        "title": "Nettisivut",
-        "name": "Oskari Läntinen"
+        "title": "Puvustusvastaava",
+        "name": "Hanna Rantala"
       },
       {
-        "title": "Tekniikka",
-        "name": "Aurora Willman"
+        "title": "Grafiikkavastaava",
+        "name": "Aleksei Myller"
       },
       {
-        "title": "Laulunohjaus",
-        "name": "Lotta Laine"
+        "title": "Varainhankintavastaava",
+        "name": "Arttu Tikkanen"
+      },
+      {
+        "title": "Markkinointivastaava",
+        "name": "Maisa Pikkarainen"
+      },
+      {
+        "title": "Kuvausvastaava",
+        "name": "Waltteri Hatulainen"
+      },
+      {
+        "title": "Virkistysvastaava",
+        "name": "Ira Tulla"
+      },
+      {
+        "title": "Tekniikkavastaava",
+        "name": "Lauri Laakkonen"
       }
     ]
   }
